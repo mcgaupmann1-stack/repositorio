@@ -60,3 +60,10 @@ SELECT
 
 FROM ventas
 GROUP BY MONTH(fecha_venta); -- agrupa por cada mes presente en la tabla (en este caso el mes 3 (marzo)
+
+--HALLAZGOS: 
+-- 1. El producto 1 concentra aproximadamente el 55.87% de la facturación total del mes, siendo el principal impulsor de ingresos.
+
+-- 2. El producto 4 es el de menor desempeño, aportando solo el 5,58% de la facturación mensual.
+
+-- 3. Los productos 5 y 6 tuvieron una sola venta.
