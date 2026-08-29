@@ -23,7 +23,7 @@ Conexión a la fuente de datos
    - Identificación de duplicados y valores nulos en tablas críticas.
 
 **Transformaciones aplicadas**
-Dim_Clientes
+Dim_Clientes:
 Eliminación de duplicado en id_cliente.
 Reemplazo de nulos:
 email → "No disponible"
@@ -31,7 +31,7 @@ ciudad → "No especificado"
 justificación: Se identificaron 2 registros con valores nulos: uno en el campo email y otro en ciudad. 
 Se optó por no eliminar los registros para preservar la información válida restante de cada cliente. Los nulos fueron reemplazados por las etiquetas 'No disponible' (email) y 'No especificado' (ciudad), aplicadas en Power Query como paso documentado dentro de la consulta de transformación.
 
-Dim_Productos
+Dim_Productos:
 Eliminación de duplicado en id_producto = 103.
 Reemplazo de nulo en precio:
 Se completó con el valor real observado en las 5 ventas registradas (dato verificable).
@@ -41,13 +41,13 @@ Reemplazo de nulo en categoria:
 Se asignó "Sin Categoría".
 Justificación: no había evidencia suficiente para inferir categoría correcta.  Esto preserva la integridad del registro para otros análisis (ingresos, ventas) sin introducir una categorización no verificada que pudiera distorsionar los reportes agregados por categoría.
 
-Fact_Ventas
+Fact_Ventas:
 Merge con Dim_Productos para enriquecer con nombre_producto y categoria.
 
-Dim_Categorias
+Dim_Categorias:
 Tabla cargada sin modificaciones.
 
-Nomenclatura profesional
+**Nomenclatura profesional**
 Renombrado de consultas:
 clientes → Dim_Clientes
 productos → Dim_Productos
