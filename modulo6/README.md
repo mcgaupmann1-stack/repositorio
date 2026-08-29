@@ -1,5 +1,6 @@
 
 **Módulo 6 - Pipeline ETL Completo en Power BI**
+
 **Propósito**
 Construcción de un pipeline ETL en Power BI para transformar datos crudos del sistema de ventas de TechStore en un modelo confiable, limpio y documentado.
 Este archivo .pbix servirá como base sólida para futuros reportes y visualizaciones.
