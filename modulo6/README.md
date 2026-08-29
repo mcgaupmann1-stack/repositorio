@@ -18,7 +18,7 @@ Conexión a la fuente de datos
    - Importación de las cuatro tablas desde Excel a Power BI.
    - Ingreso directo al Editor de Power Query.
 
-Perfilado de datos
+**Perfilado de datos**
    - Activación de herramientas de diagnóstico: calidad, distribución y perfil de columnas.
    - Identificación de duplicados y valores nulos en tablas críticas.
 
