@@ -66,3 +66,5 @@ Fact_Ventas → 50
 Dim_Categorias → 4
 
 Sin errores ni advertencias en la carga.
+
+
