@@ -64,3 +64,5 @@ Participación por categoría
 Tabla de productos con mayor caída
 
 Este boceto define la estructura visual que se implementará en Power BI en módulos posteriores.
+
+--**Correcciones sobre el entregable del módulo 1**--
