@@ -65,4 +65,11 @@ Tabla de productos con mayor caída
 
 Este boceto define la estructura visual que se implementará en Power BI en módulos posteriores.
 
---**Correcciones sobre el entregable del módulo 1**--
+--**Mejoras sobre el entregable del módulo 1 - Incluidas en la v2 del documento**--
+1) Especificar el período usado para calcular la rotación de stock, por ejemplo, unidades vendidas del mes
+dividido por stock promedio del mismo mes.
+2) Aclaración en la fórmula de variación porcentaje de ventas que el resultado se multiplica por 100
+para expresarlo como porcentaje.
+3) Explicitar qué acción de negocio se tomaría ante cada causa posible - precio, quiebre de stock
+o canal - para reforzar la orientación ejecutiva
+
