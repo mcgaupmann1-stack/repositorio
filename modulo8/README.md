@@ -1,4 +1,4 @@
-**Módulo 6 - Checkpoint 2: Modelo de Datos y Medidas DAX**
+**Módulo 8 - Checkpoint 2: Modelo de Datos y Medidas DAX**
 
 **Propósito del ejercicio**
 En este módulo el objetivo es **darle inteligencia al modelo de datos**: configurar relaciones correctas, crear una tabla calendario para habilitar análisis temporal y escribir las cinco medidas DAX fundamentales que servirán de base para futuros reportes.
