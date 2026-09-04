@@ -42,7 +42,7 @@ HAVING COUNT(*) > 1;
 --Consulta 4 — Meses por encima/por debajo del promedio
 
 SELECT 
-    EXTRACT(MONTH FROM fecha_venta) AS MES,  --este cambio no funciona en SQL Server
+    EXTRACT(MONTH FROM fecha_venta) AS MES,  --modificado para que funcione en MYSQL
     SUM(cantidad * precio_unitario) AS TOTAL_MES, --total mensual por cada mes presente en la tabla
 
     CASE 
@@ -52,10 +52,10 @@ SELECT
             SELECT AVG(total_mensual)
             FROM (
                 SELECT 
-                    EXTRACT(MONTH FROM fecha_venta) AS mes,  --este cambio no funciona en SQL Server
+                    EXTRACT(MONTH FROM fecha_venta) AS mes,  --modificado para que funcione en MYSQL
                     SUM(cantidad * precio_unitario) AS total_mensual
                 FROM ventas
-                GROUP BY EXTRACT(MONTH FROM fecha_venta)  --este cambio no funciona en SQL Server
+                GROUP BY EXTRACT(MONTH FROM fecha_venta)  --modificado para que funcione en MYSQL
             ) AS promedio_meses
 
         ) THEN 'Por encima'
