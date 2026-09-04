@@ -64,4 +64,4 @@ SELECT
 
 FROM ventas
 GROUP BY EXTRACT(MONTH FROM fecha_venta); -- agrupa por cada mes presente en la tabla (en este caso el mes 3 (marzo)
---este cambio no funciona en SQL Server
+--se realizó el cambio para que la consulta funcione en MySQL
